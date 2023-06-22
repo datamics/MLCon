@@ -1,0 +1,12 @@
+[2023-06-22T17:00:51.167+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_usecase.git_commit manual__2023-06-22T15:00:30.430032+00:00 [queued]>
+[2023-06-22T17:00:51.171+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_usecase.git_commit manual__2023-06-22T15:00:30.430032+00:00 [queued]>
+[2023-06-22T17:00:51.171+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-22T17:00:51.177+0200] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): git_commit> on 2023-06-22 15:00:30.430032+00:00
+[2023-06-22T17:00:51.179+0200] {standard_task_runner.py:57} INFO - Started process 88927 to run task
+[2023-06-22T17:00:51.185+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dag_with_usecase', 'git_commit', 'manual__2023-06-22T15:00:30.430032+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/usecase_dag.py', '--cfg-path', '/var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T/tmpnzi67is2']
+[2023-06-22T17:00:51.188+0200] {standard_task_runner.py:85} INFO - Job 31: Subtask git_commit
+[2023-06-22T17:00:51.277+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='John' AIRFLOW_CTX_DAG_ID='dag_with_usecase' AIRFLOW_CTX_TASK_ID='git_commit' AIRFLOW_CTX_EXECUTION_DATE='2023-06-22T15:00:30.430032+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-22T15:00:30.430032+00:00'
+[2023-06-22T17:00:51.278+0200] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T
+[2023-06-22T17:00:51.279+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n                    cd \'/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow\';\n                    git add .;\n                    git commit -m "Training with MLFlow run_id dad2e3700a0c45b298fa604564c7ab34";\n                    git push;\n                ']
+[2023-06-22T17:00:51.285+0200] {subprocess.py:86} INFO - Output:

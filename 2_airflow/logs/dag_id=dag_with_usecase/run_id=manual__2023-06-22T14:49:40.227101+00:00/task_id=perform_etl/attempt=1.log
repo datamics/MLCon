@@ -1,0 +1,13 @@
+[2023-06-22T16:49:44.833+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_usecase.perform_etl manual__2023-06-22T14:49:40.227101+00:00 [queued]>
+[2023-06-22T16:49:44.839+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_usecase.perform_etl manual__2023-06-22T14:49:40.227101+00:00 [queued]>
+[2023-06-22T16:49:44.839+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-22T16:49:44.850+0200] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): perform_etl> on 2023-06-22 14:49:40.227101+00:00
+[2023-06-22T16:49:44.854+0200] {standard_task_runner.py:57} INFO - Started process 88383 to run task
+[2023-06-22T16:49:44.861+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dag_with_usecase', 'perform_etl', 'manual__2023-06-22T14:49:40.227101+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/usecase_dag.py', '--cfg-path', '/var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T/tmpuqenvzt3']
+[2023-06-22T16:49:44.865+0200] {standard_task_runner.py:85} INFO - Job 26: Subtask perform_etl
+[2023-06-22T16:49:44.914+0200] {task_command.py:410} INFO - Running <TaskInstance: dag_with_usecase.perform_etl manual__2023-06-22T14:49:40.227101+00:00 [running]> on host saumyas-macbook-pro.local
+[2023-06-22T16:49:44.959+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='John' AIRFLOW_CTX_DAG_ID='dag_with_usecase' AIRFLOW_CTX_TASK_ID='perform_etl' AIRFLOW_CTX_EXECUTION_DATE='2023-06-22T14:49:40.227101+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-22T14:49:40.227101+00:00'
+[2023-06-22T16:49:44.985+0200] {python.py:183} INFO - Done. Returned value was: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/data/winequality-red_2023-06-22.csv
+[2023-06-22T16:49:44.995+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=dag_with_usecase, task_id=perform_etl, execution_date=20230622T144940, start_date=20230622T144944, end_date=20230622T144944
+[2023-06-22T16:49:45.041+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-22T16:49:45.054+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

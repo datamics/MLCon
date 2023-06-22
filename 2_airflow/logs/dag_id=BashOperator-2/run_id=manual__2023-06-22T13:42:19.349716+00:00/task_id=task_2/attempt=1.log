@@ -1,0 +1,18 @@
+[2023-06-22T15:42:21.798+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BashOperator-2.task_2 manual__2023-06-22T13:42:19.349716+00:00 [queued]>
+[2023-06-22T15:42:21.803+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BashOperator-2.task_2 manual__2023-06-22T13:42:19.349716+00:00 [queued]>
+[2023-06-22T15:42:21.803+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-22T15:42:21.809+0200] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): task_2> on 2023-06-22 13:42:19.349716+00:00
+[2023-06-22T15:42:21.811+0200] {standard_task_runner.py:57} INFO - Started process 86403 to run task
+[2023-06-22T15:42:21.815+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'BashOperator-2', 'task_2', 'manual__2023-06-22T13:42:19.349716+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/bashoperator-2.py', '--cfg-path', '/var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T/tmp6_uw7fsh']
+[2023-06-22T15:42:21.818+0200] {standard_task_runner.py:85} INFO - Job 6: Subtask task_2
+[2023-06-22T15:42:21.850+0200] {task_command.py:410} INFO - Running <TaskInstance: BashOperator-2.task_2 manual__2023-06-22T13:42:19.349716+00:00 [running]> on host saumyas-macbook-pro.local
+[2023-06-22T15:42:21.889+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='spiderman' AIRFLOW_CTX_DAG_ID='BashOperator-2' AIRFLOW_CTX_TASK_ID='task_2' AIRFLOW_CTX_EXECUTION_DATE='2023-06-22T13:42:19.349716+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-22T13:42:19.349716+00:00'
+[2023-06-22T15:42:21.890+0200] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T
+[2023-06-22T15:42:21.891+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo Hello World!']
+[2023-06-22T15:42:21.896+0200] {subprocess.py:86} INFO - Output:
+[2023-06-22T15:42:21.902+0200] {subprocess.py:93} INFO - Hello World!
+[2023-06-22T15:42:21.902+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-06-22T15:42:21.917+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=BashOperator-2, task_id=task_2, execution_date=20230622T134219, start_date=20230622T134221, end_date=20230622T134221
+[2023-06-22T15:42:21.960+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-22T15:42:21.976+0200] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

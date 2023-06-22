@@ -1,0 +1,15 @@
+[2023-06-22T16:06:50.762+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: PythonOperator-3.task_2 manual__2023-06-22T14:06:46.925027+00:00 [queued]>
+[2023-06-22T16:06:50.766+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: PythonOperator-3.task_2 manual__2023-06-22T14:06:46.925027+00:00 [queued]>
+[2023-06-22T16:06:50.766+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-22T16:06:50.773+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): task_2> on 2023-06-22 14:06:46.925027+00:00
+[2023-06-22T16:06:50.775+0200] {standard_task_runner.py:57} INFO - Started process 87107 to run task
+[2023-06-22T16:06:50.780+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'PythonOperator-3', 'task_2', 'manual__2023-06-22T14:06:46.925027+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/pythonoperator-3.py', '--cfg-path', '/var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T/tmpxtygpn9m']
+[2023-06-22T16:06:50.783+0200] {standard_task_runner.py:85} INFO - Job 21: Subtask task_2
+[2023-06-22T16:06:50.814+0200] {task_command.py:410} INFO - Running <TaskInstance: PythonOperator-3.task_2 manual__2023-06-22T14:06:46.925027+00:00 [running]> on host saumyas-macbook-pro.local
+[2023-06-22T16:06:50.860+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='spiderman' AIRFLOW_CTX_DAG_ID='PythonOperator-3' AIRFLOW_CTX_TASK_ID='task_2' AIRFLOW_CTX_EXECUTION_DATE='2023-06-22T14:06:46.925027+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-22T14:06:46.925027+00:00'
+[2023-06-22T16:06:50.861+0200] {logging_mixin.py:149} INFO - I am here at the bar toblerone
+[2023-06-22T16:06:50.867+0200] {logging_mixin.py:149} INFO - Come here at Augustiner
+[2023-06-22T16:06:50.867+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-22T16:06:50.871+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=PythonOperator-3, task_id=task_2, execution_date=20230622T140646, start_date=20230622T140650, end_date=20230622T140650
+[2023-06-22T16:06:50.920+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-22T16:06:50.933+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

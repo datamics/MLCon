@@ -1,0 +1,14 @@
+[2023-06-22T15:56:23.193+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: PythonOperator-2.task_2 manual__2023-06-22T13:56:20.149605+00:00 [queued]>
+[2023-06-22T15:56:23.198+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: PythonOperator-2.task_2 manual__2023-06-22T13:56:20.149605+00:00 [queued]>
+[2023-06-22T15:56:23.199+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-22T15:56:23.206+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): task_2> on 2023-06-22 13:56:20.149605+00:00
+[2023-06-22T15:56:23.208+0200] {standard_task_runner.py:57} INFO - Started process 86817 to run task
+[2023-06-22T15:56:23.213+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'PythonOperator-2', 'task_2', 'manual__2023-06-22T13:56:20.149605+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/pythonoperator-2.py', '--cfg-path', '/var/folders/cm/7f6kgxhn6qgb2r_wq92h422h0000gn/T/tmp6x4dp_dk']
+[2023-06-22T15:56:23.215+0200] {standard_task_runner.py:85} INFO - Job 14: Subtask task_2
+[2023-06-22T15:56:23.249+0200] {task_command.py:410} INFO - Running <TaskInstance: PythonOperator-2.task_2 manual__2023-06-22T13:56:20.149605+00:00 [running]> on host saumyas-macbook-pro.local
+[2023-06-22T15:56:23.291+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='spiderman' AIRFLOW_CTX_DAG_ID='PythonOperator-2' AIRFLOW_CTX_TASK_ID='task_2' AIRFLOW_CTX_EXECUTION_DATE='2023-06-22T13:56:20.149605+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-22T13:56:20.149605+00:00'
+[2023-06-22T15:56:23.292+0200] {logging_mixin.py:149} INFO - I am here at the bar toblerone
+[2023-06-22T15:56:23.292+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-22T15:56:23.296+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=PythonOperator-2, task_id=task_2, execution_date=20230622T135620, start_date=20230622T135623, end_date=20230622T135623
+[2023-06-22T15:56:23.312+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-22T15:56:23.328+0200] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

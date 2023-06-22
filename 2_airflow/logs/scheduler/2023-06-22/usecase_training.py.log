@@ -1,0 +1,1001 @@
+[2023-06-22T16:13:41.041+0200] {processor.py:157} INFO - Started process (PID=87293) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:13:41.043+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:13:41.043+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:13:41.043+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:13:41.045+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:13:41.045+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:13:41.046+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:13:41.626+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.585 seconds
+[2023-06-22T16:14:12.918+0200] {processor.py:157} INFO - Started process (PID=87303) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:14:12.920+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:14:12.920+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:14:12.920+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:14:12.921+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:14:12.921+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:14:12.922+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:14:13.483+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.565 seconds
+[2023-06-22T16:14:44.734+0200] {processor.py:157} INFO - Started process (PID=87313) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:14:44.736+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:14:44.736+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:14:44.736+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:14:44.738+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:14:44.737+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:14:44.738+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:14:45.286+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.552 seconds
+[2023-06-22T16:15:16.605+0200] {processor.py:157} INFO - Started process (PID=87323) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:15:16.607+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:15:16.608+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:15:16.607+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:15:16.609+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:15:16.608+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:15:16.609+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:15:17.169+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.565 seconds
+[2023-06-22T16:15:48.488+0200] {processor.py:157} INFO - Started process (PID=87334) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:15:48.490+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:15:48.491+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:15:48.491+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:15:48.492+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:15:48.491+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:15:48.492+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:15:49.048+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.560 seconds
+[2023-06-22T16:16:20.352+0200] {processor.py:157} INFO - Started process (PID=87344) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:16:20.354+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:16:20.354+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:16:20.354+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:16:20.355+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:16:20.355+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:16:20.356+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:16:20.906+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.555 seconds
+[2023-06-22T16:16:52.734+0200] {processor.py:157} INFO - Started process (PID=87357) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:16:52.736+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:16:52.737+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:16:52.736+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:16:52.738+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:16:52.737+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:16:52.738+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:16:53.287+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.554 seconds
+[2023-06-22T16:17:24.642+0200] {processor.py:157} INFO - Started process (PID=87368) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:17:24.644+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:17:24.644+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:17:24.644+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:17:24.645+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:17:24.645+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:17:24.646+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:17:25.193+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.551 seconds
+[2023-06-22T16:17:56.427+0200] {processor.py:157} INFO - Started process (PID=87378) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:17:56.431+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:17:56.431+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:17:56.431+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:17:56.432+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:17:56.432+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:17:56.432+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:17:56.993+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.566 seconds
+[2023-06-22T16:18:28.339+0200] {processor.py:157} INFO - Started process (PID=87388) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:18:28.341+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:18:28.342+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:18:28.342+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:18:28.343+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:18:28.342+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:18:28.343+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:18:28.896+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.557 seconds
+[2023-06-22T16:19:00.241+0200] {processor.py:157} INFO - Started process (PID=87400) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:19:00.243+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:19:00.244+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:19:00.244+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:19:00.245+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:19:00.244+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:19:00.245+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:19:00.811+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.570 seconds
+[2023-06-22T16:19:32.195+0200] {processor.py:157} INFO - Started process (PID=87410) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:19:32.197+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:19:32.197+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:19:32.197+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:19:32.199+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:19:32.198+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:19:32.199+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:19:32.758+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.563 seconds
+[2023-06-22T16:20:04.051+0200] {processor.py:157} INFO - Started process (PID=87422) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:20:04.053+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:20:04.053+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:20:04.053+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:20:04.054+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:20:04.054+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:20:04.055+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:20:04.614+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.564 seconds
+[2023-06-22T16:20:36.023+0200] {processor.py:157} INFO - Started process (PID=87432) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:20:36.025+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:20:36.025+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:20:36.025+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:20:36.026+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:20:36.026+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:20:36.027+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:20:36.583+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.561 seconds
+[2023-06-22T16:21:07.955+0200] {processor.py:157} INFO - Started process (PID=87443) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:21:07.957+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:21:07.957+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:21:07.957+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:21:07.958+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:21:07.958+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:21:07.959+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:21:08.518+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.564 seconds
+[2023-06-22T16:21:39.902+0200] {processor.py:157} INFO - Started process (PID=87455) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:21:39.904+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:21:39.904+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:21:39.904+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:21:39.906+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:21:39.905+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:21:39.906+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:21:40.454+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.553 seconds
+[2023-06-22T16:22:11.761+0200] {processor.py:157} INFO - Started process (PID=87468) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:22:11.764+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:22:11.764+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:22:11.764+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:22:11.765+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:22:11.765+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:22:11.765+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:22:12.317+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.556 seconds
+[2023-06-22T16:22:43.656+0200] {processor.py:157} INFO - Started process (PID=87479) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:22:43.659+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:22:43.659+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:22:43.659+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:22:43.660+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:22:43.660+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:22:43.660+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:22:44.219+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.563 seconds
+[2023-06-22T16:23:15.480+0200] {processor.py:157} INFO - Started process (PID=87490) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:23:15.482+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:23:15.482+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:23:15.482+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:23:15.484+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:23:15.483+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:23:15.484+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:23:16.039+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.560 seconds
+[2023-06-22T16:23:47.383+0200] {processor.py:157} INFO - Started process (PID=87501) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:23:47.386+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:23:47.386+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:23:47.386+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:23:47.387+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:23:47.387+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:23:47.388+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:23:47.954+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.571 seconds
+[2023-06-22T16:24:19.297+0200] {processor.py:157} INFO - Started process (PID=87512) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:24:19.299+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:24:19.299+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:24:19.299+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:24:19.301+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:24:19.300+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:24:19.301+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:24:19.865+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.569 seconds
+[2023-06-22T16:24:51.169+0200] {processor.py:157} INFO - Started process (PID=87522) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:24:51.171+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:24:51.171+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:24:51.171+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:24:51.172+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:24:51.172+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:24:51.173+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:24:51.734+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.566 seconds
+[2023-06-22T16:25:23.024+0200] {processor.py:157} INFO - Started process (PID=87532) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:25:23.026+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:25:23.026+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:25:23.026+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:25:23.027+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:25:23.027+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:25:23.028+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:25:23.596+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.573 seconds
+[2023-06-22T16:25:54.974+0200] {processor.py:157} INFO - Started process (PID=87551) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:25:54.976+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:25:54.977+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:25:54.977+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:25:54.978+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:25:54.978+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:25:54.979+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:25:55.566+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.593 seconds
+[2023-06-22T16:26:26.956+0200] {processor.py:157} INFO - Started process (PID=87562) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:26:26.958+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:26:26.959+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:26:26.959+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:26:26.960+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:26:26.959+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:26:26.960+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:26:27.511+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.555 seconds
+[2023-06-22T16:26:59.002+0200] {processor.py:157} INFO - Started process (PID=87575) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:26:59.005+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:26:59.005+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:26:59.005+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:26:59.007+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:26:59.006+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:26:59.007+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:26:59.595+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.593 seconds
+[2023-06-22T16:27:31.449+0200] {processor.py:157} INFO - Started process (PID=87591) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:27:31.452+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:27:31.452+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:27:31.452+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:27:31.454+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:27:31.453+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:27:31.454+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:27:32.130+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.682 seconds
+[2023-06-22T16:28:03.232+0200] {processor.py:157} INFO - Started process (PID=87605) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:28:03.234+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:28:03.235+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:28:03.235+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:28:03.237+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:28:03.235+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:28:03.237+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:28:03.840+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.608 seconds
+[2023-06-22T16:28:35.796+0200] {processor.py:157} INFO - Started process (PID=87625) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:28:35.799+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:28:35.799+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:28:35.799+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:28:35.800+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:28:35.800+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:28:35.801+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:28:36.397+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.601 seconds
+[2023-06-22T16:29:07.667+0200] {processor.py:157} INFO - Started process (PID=87640) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:29:07.671+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:29:07.672+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:29:07.671+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:29:07.673+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:29:07.672+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:29:07.673+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:29:08.268+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.601 seconds
+[2023-06-22T16:29:39.691+0200] {processor.py:157} INFO - Started process (PID=87650) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:29:39.693+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:29:39.693+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:29:39.693+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:29:39.695+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:29:39.694+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:29:39.695+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:29:40.242+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.551 seconds
+[2023-06-22T16:30:11.742+0200] {processor.py:157} INFO - Started process (PID=87662) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:30:11.745+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:30:11.745+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:30:11.745+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:30:11.746+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:30:11.746+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:30:11.746+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:30:12.299+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.557 seconds
+[2023-06-22T16:30:43.576+0200] {processor.py:157} INFO - Started process (PID=87672) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:30:43.578+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:30:43.579+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:30:43.579+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:30:43.580+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:30:43.579+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:30:43.580+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:30:44.151+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.575 seconds
+[2023-06-22T16:31:15.512+0200] {processor.py:157} INFO - Started process (PID=87682) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:31:15.514+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:31:15.515+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:31:15.515+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:31:15.516+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:31:15.516+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:31:15.517+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:31:16.141+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.630 seconds
+[2023-06-22T16:31:47.730+0200] {processor.py:157} INFO - Started process (PID=87700) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:31:47.732+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:31:47.732+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:31:47.732+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:31:47.734+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:31:47.733+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:31:47.734+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:31:48.371+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.642 seconds
+[2023-06-22T16:32:19.995+0200] {processor.py:157} INFO - Started process (PID=87713) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:32:19.997+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:32:19.998+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:32:19.998+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:32:19.999+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:32:19.998+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:32:19.999+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:32:20.569+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.574 seconds
+[2023-06-22T16:32:52.589+0200] {processor.py:157} INFO - Started process (PID=87774) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:32:52.591+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:32:52.591+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:32:52.591+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:32:52.593+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:32:52.592+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:32:52.593+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:32:53.203+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.614 seconds
+[2023-06-22T16:33:24.841+0200] {processor.py:157} INFO - Started process (PID=87784) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:33:24.843+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:33:24.844+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:33:24.843+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:33:24.845+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:33:24.844+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:33:24.845+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:33:25.449+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.609 seconds
+[2023-06-22T16:33:57.283+0200] {processor.py:157} INFO - Started process (PID=87799) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:33:57.287+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:33:57.288+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:33:57.287+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:33:57.289+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:33:57.288+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:33:57.289+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:33:57.913+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.630 seconds
+[2023-06-22T16:34:28.800+0200] {processor.py:157} INFO - Started process (PID=87813) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:34:28.802+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:34:28.802+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:34:28.802+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:34:28.803+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:34:28.803+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:34:28.803+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:34:29.349+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.550 seconds
+[2023-06-22T16:35:01.041+0200] {processor.py:157} INFO - Started process (PID=87824) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:35:01.044+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:35:01.044+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:35:01.044+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:35:01.045+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:35:01.045+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:35:01.046+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:35:01.607+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.566 seconds
+[2023-06-22T16:35:33.317+0200] {processor.py:157} INFO - Started process (PID=87834) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:35:33.320+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:35:33.320+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:35:33.320+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:35:33.321+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:35:33.321+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:35:33.321+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:35:33.921+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.604 seconds
+[2023-06-22T16:36:05.602+0200] {processor.py:157} INFO - Started process (PID=87846) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:36:05.605+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:36:05.605+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:36:05.605+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:36:05.606+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:36:05.606+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:36:05.606+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:36:06.287+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.685 seconds
+[2023-06-22T16:36:37.843+0200] {processor.py:157} INFO - Started process (PID=87858) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:36:37.846+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:36:37.847+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:36:37.846+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:36:37.848+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:36:37.847+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:36:37.848+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:36:38.477+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.634 seconds
+[2023-06-22T16:37:12.615+0200] {processor.py:157} INFO - Started process (PID=87872) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:37:12.617+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:37:12.617+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:37:12.617+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:37:12.619+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:37:12.619+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:37:12.620+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:37:13.300+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.686 seconds
+[2023-06-22T16:37:44.284+0200] {processor.py:157} INFO - Started process (PID=87926) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:37:44.286+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:37:44.286+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:37:44.286+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:37:44.288+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:37:44.287+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-06-22T16:37:44.288+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:37:44.867+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.584 seconds
+[2023-06-22T16:38:31.145+0200] {processor.py:157} INFO - Started process (PID=87960) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:38:31.148+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:38:31.148+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:38:31.148+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:38:31.422+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:38:31.421+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:38:31.422+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:38:31.949+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.805 seconds
+[2023-06-22T16:39:03.307+0200] {processor.py:157} INFO - Started process (PID=87971) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:39:03.309+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:39:03.310+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:39:03.310+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:39:03.574+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:39:03.573+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:39:03.574+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:39:04.090+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.784 seconds
+[2023-06-22T16:39:35.398+0200] {processor.py:157} INFO - Started process (PID=87982) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:39:35.400+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:39:35.400+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:39:35.400+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:39:35.657+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:39:35.657+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:39:35.658+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:39:36.174+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.776 seconds
+[2023-06-22T16:40:07.482+0200] {processor.py:157} INFO - Started process (PID=87992) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:40:07.484+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:40:07.484+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:40:07.484+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:40:07.742+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:40:07.742+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:40:07.743+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:40:08.263+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.782 seconds
+[2023-06-22T16:40:39.416+0200] {processor.py:157} INFO - Started process (PID=88006) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:40:39.418+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:40:39.418+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:40:39.418+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:40:39.681+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:40:39.680+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:40:39.681+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:40:40.217+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.803 seconds
+[2023-06-22T16:41:11.633+0200] {processor.py:157} INFO - Started process (PID=88046) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:41:11.636+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:41:11.636+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:41:11.636+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:41:11.893+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:41:11.892+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:41:11.893+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:41:12.407+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.774 seconds
+[2023-06-22T16:41:43.728+0200] {processor.py:157} INFO - Started process (PID=88059) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:41:43.731+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:41:43.731+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:41:43.731+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:41:43.995+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:41:43.994+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:41:43.995+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:41:44.509+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.781 seconds
+[2023-06-22T16:42:15.946+0200] {processor.py:157} INFO - Started process (PID=88072) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:42:15.948+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:42:15.948+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:42:15.948+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:42:16.212+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:42:16.211+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:42:16.212+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:42:16.721+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.775 seconds
+[2023-06-22T16:42:48.068+0200] {processor.py:157} INFO - Started process (PID=88082) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:42:48.070+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:42:48.070+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:42:48.070+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:42:48.332+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:42:48.331+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:42:48.332+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:42:48.860+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.793 seconds
+[2023-06-22T16:43:20.161+0200] {processor.py:157} INFO - Started process (PID=88092) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:43:20.163+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:43:20.163+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:43:20.163+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:43:20.421+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:43:20.420+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:43:20.421+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:43:20.923+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.762 seconds
+[2023-06-22T16:43:52.272+0200] {processor.py:157} INFO - Started process (PID=88102) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:43:52.274+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:43:52.275+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:43:52.275+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:43:52.530+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:43:52.530+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:43:52.531+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:43:53.036+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.764 seconds
+[2023-06-22T16:44:24.352+0200] {processor.py:157} INFO - Started process (PID=88112) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:44:24.355+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:44:24.356+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:44:24.355+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:44:24.651+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:44:24.650+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:44:24.651+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:44:25.169+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.817 seconds
+[2023-06-22T16:44:56.516+0200] {processor.py:157} INFO - Started process (PID=88123) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:44:56.518+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:44:56.518+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:44:56.518+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:44:56.778+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:44:56.777+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:44:56.778+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:44:57.284+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.769 seconds
+[2023-06-22T16:45:28.581+0200] {processor.py:157} INFO - Started process (PID=88135) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:45:28.583+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:45:28.584+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:45:28.584+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:45:28.841+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:45:28.841+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:45:28.842+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:45:29.345+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.764 seconds
+[2023-06-22T16:46:01.176+0200] {processor.py:157} INFO - Started process (PID=88147) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:46:01.179+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:46:01.179+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:46:01.179+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:46:01.441+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:46:01.440+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 4, in <module>
+    from sklearn.linear_model import ElasticNet
+ModuleNotFoundError: No module named 'sklearn'
+[2023-06-22T16:46:01.441+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:46:01.977+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 0.801 seconds
+[2023-06-22T16:47:16.664+0200] {processor.py:157} INFO - Started process (PID=88220) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:47:16.667+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:47:16.667+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:47:16.667+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:47:17.710+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:47:17.708+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 7, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+[2023-06-22T16:47:17.710+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:47:18.245+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 1.582 seconds
+[2023-06-22T16:47:50.540+0200] {processor.py:157} INFO - Started process (PID=88263) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:47:50.543+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:47:50.544+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:47:50.543+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:47:52.586+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:47:52.585+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 9, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2023-06-22T16:47:52.587+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:47:53.152+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.612 seconds
+[2023-06-22T16:48:22.205+0200] {processor.py:157} INFO - Started process (PID=88315) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:48:22.208+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:48:22.208+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:48:22.208+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:48:23.511+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:48:23.510+0200] {dagbag.py:350} ERROR - Failed to import: /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+Traceback (most recent call last):
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/.venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py", line 9, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2023-06-22T16:48:23.511+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:48:24.014+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 1.809 seconds
+[2023-06-22T16:49:01.233+0200] {processor.py:157} INFO - Started process (PID=88351) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:49:01.237+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:49:01.237+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:49:01.237+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:49:03.021+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:49:03.489+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.256 seconds
+[2023-06-22T16:49:34.962+0200] {processor.py:157} INFO - Started process (PID=88374) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:49:34.964+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:49:34.964+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:49:34.964+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:49:36.611+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:49:37.052+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.090 seconds
+[2023-06-22T16:50:09.032+0200] {processor.py:157} INFO - Started process (PID=88403) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:50:09.034+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:50:09.034+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:50:09.034+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:50:10.629+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:50:11.087+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.055 seconds
+[2023-06-22T16:50:45.424+0200] {processor.py:157} INFO - Started process (PID=88421) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:50:45.427+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:50:45.427+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:50:45.427+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:50:47.225+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:50:47.688+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.264 seconds
+[2023-06-22T16:51:19.652+0200] {processor.py:157} INFO - Started process (PID=88435) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:51:19.655+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:51:19.655+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:51:19.655+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:51:21.418+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:51:21.849+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.197 seconds
+[2023-06-22T16:51:53.853+0200] {processor.py:157} INFO - Started process (PID=88448) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:51:53.856+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:51:53.856+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:51:53.856+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:51:55.465+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:51:55.886+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.034 seconds
+[2023-06-22T16:52:27.823+0200] {processor.py:157} INFO - Started process (PID=88466) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:52:27.826+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:52:27.826+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:52:27.826+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:52:29.594+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:52:30.057+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.235 seconds
+[2023-06-22T16:53:02.063+0200] {processor.py:157} INFO - Started process (PID=88483) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:53:02.065+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:53:02.065+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:53:02.065+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:53:03.840+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:53:04.291+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.230 seconds
+[2023-06-22T16:53:35.446+0200] {processor.py:157} INFO - Started process (PID=88555) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:53:35.449+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:53:35.449+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:53:35.449+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:53:37.310+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:53:37.824+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.379 seconds
+[2023-06-22T16:54:14.354+0200] {processor.py:157} INFO - Started process (PID=88587) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:54:14.356+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:54:14.357+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:54:14.357+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:54:16.185+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:54:16.662+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.309 seconds
+[2023-06-22T16:54:48.688+0200] {processor.py:157} INFO - Started process (PID=88599) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:54:48.690+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:54:48.690+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:54:48.690+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:54:50.322+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:54:50.785+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.097 seconds
+[2023-06-22T16:55:21.995+0200] {processor.py:157} INFO - Started process (PID=88637) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:55:21.998+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:55:21.999+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:55:21.999+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:55:23.670+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:55:24.121+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.126 seconds
+[2023-06-22T16:55:55.631+0200] {processor.py:157} INFO - Started process (PID=88677) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:55:55.633+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:55:55.634+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:55:55.634+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:55:57.325+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:55:57.768+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.138 seconds
+[2023-06-22T16:56:31.215+0200] {processor.py:157} INFO - Started process (PID=88729) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:56:31.218+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:56:31.218+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:56:31.218+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:56:33.252+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:56:33.776+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.562 seconds
+[2023-06-22T16:57:10.741+0200] {processor.py:157} INFO - Started process (PID=88759) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:57:10.744+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:57:10.744+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:57:10.744+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:57:12.368+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:57:12.807+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.066 seconds
+[2023-06-22T16:57:45.094+0200] {processor.py:157} INFO - Started process (PID=88773) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:57:45.096+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:57:45.096+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:57:45.096+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:57:47.058+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:57:47.575+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.482 seconds
+[2023-06-22T16:58:18.925+0200] {processor.py:157} INFO - Started process (PID=88823) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:58:18.928+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:58:18.929+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:58:18.929+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:58:20.738+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:58:21.208+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.284 seconds
+[2023-06-22T16:58:52.517+0200] {processor.py:157} INFO - Started process (PID=88835) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:58:52.520+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:58:52.520+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:58:52.520+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:58:54.309+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:58:54.784+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.266 seconds
+[2023-06-22T16:59:26.015+0200] {processor.py:157} INFO - Started process (PID=88850) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:59:26.018+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:59:26.018+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:59:26.018+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:59:27.767+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:59:28.230+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.215 seconds
+[2023-06-22T16:59:59.890+0200] {processor.py:157} INFO - Started process (PID=88866) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T16:59:59.892+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T16:59:59.893+0200] {logging_mixin.py:149} INFO - [2023-06-22T16:59:59.893+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:00:01.510+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:00:01.934+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.044 seconds
+[2023-06-22T17:00:35.925+0200] {processor.py:157} INFO - Started process (PID=88896) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:00:35.927+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:00:35.928+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:00:35.928+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:00:37.744+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:00:38.191+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.267 seconds
