@@ -33,7 +33,7 @@ def dag_func(datapath):
 
     git_command = f"""
                     cd '{path_root}';
-                    git add .;
+                    git add dags/*;
                     git commit -m "Training with MLFlow run_id {run_id}";
                     git push;
                 """

@@ -999,3 +999,33 @@ ModuleNotFoundError: No module named 'mlflow'
 [2023-06-22T17:00:35.928+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:00:35.928+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
 [2023-06-22T17:00:37.744+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
 [2023-06-22T17:00:38.191+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.267 seconds
+[2023-06-22T17:02:59.481+0200] {processor.py:157} INFO - Started process (PID=89036) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:02:59.485+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:02:59.485+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:02:59.485+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:03:01.300+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:03:01.806+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.325 seconds
+[2023-06-22T17:03:33.366+0200] {processor.py:157} INFO - Started process (PID=89051) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:03:33.369+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:03:33.370+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:33.369+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:03:35.212+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:03:35.672+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.306 seconds
+[2023-06-22T17:04:07.623+0200] {processor.py:157} INFO - Started process (PID=89065) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:04:07.625+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:04:07.625+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:07.625+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:04:09.392+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:04:09.867+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.245 seconds
+[2023-06-22T17:04:41.627+0200] {processor.py:157} INFO - Started process (PID=89080) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:04:41.629+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:04:41.630+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:41.630+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:04:43.457+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:04:43.966+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.340 seconds
+[2023-06-22T17:05:15.597+0200] {processor.py:157} INFO - Started process (PID=89092) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:05:15.599+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:05:15.599+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:15.599+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:05:17.182+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:05:17.599+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.003 seconds
+[2023-06-22T17:05:49.292+0200] {processor.py:157} INFO - Started process (PID=89105) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:05:49.294+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py for tasks to queue
+[2023-06-22T17:05:49.295+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:49.295+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:05:50.887+0200] {processor.py:838} WARNING - No viable dags retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py
+[2023-06-22T17:05:51.311+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py took 2.020 seconds

@@ -4655,3 +4655,114 @@ File Path                                                                       
 /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.58s           2023-06-22T15:00:10
 /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.81s           2023-06-22T15:00:19
 ================================================================================
+[2023-06-22T17:02:35.907+0200] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-22T17:02:37.791+0200] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-06-22T17:02:37.791+0200] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-06-22T17:02:37.791+0200] {manager.py:489} INFO - Checking for new files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags every 60 seconds
+[2023-06-22T17:02:37.791+0200] {manager.py:758} INFO - Searching for files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:02:37.806+0200] {manager.py:761} INFO - There are 7 files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:02:43.773+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           0           0
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  0           0
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           0           0
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           0           0
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             0           0
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  4.89s           2023-06-22T15:02:43
+================================================================================
+[2023-06-22T17:03:18.202+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0  3.54s           2023-06-22T15:03:02
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  3.74s           2023-06-22T15:03:18
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           1           0  1.85s           2023-06-22T15:02:46
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  1           0  1.68s           2023-06-22T15:02:57
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           1           0  1.82s           2023-06-22T15:02:49
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.78s           2023-06-22T15:02:52
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.59s           2023-06-22T15:02:54
+================================================================================
+[2023-06-22T17:03:38.580+0200] {manager.py:758} INFO - Searching for files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:03:38.585+0200] {manager.py:761} INFO - There are 7 files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:03:51.812+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0  3.49s           2023-06-22T15:03:36
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  3.47s           2023-06-22T15:03:51
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           1           0  1.66s           2023-06-22T15:03:20
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  1           0  1.74s           2023-06-22T15:03:31
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           1           0  1.67s           2023-06-22T15:03:23
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.58s           2023-06-22T15:03:26
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.57s           2023-06-22T15:03:28
+================================================================================
+[2023-06-22T17:04:25.954+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0  3.34s           2023-06-22T15:04:10
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  3.50s           2023-06-22T15:04:25
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           1           0  1.72s           2023-06-22T15:03:54
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  1           0  1.54s           2023-06-22T15:04:04
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           1           0  1.59s           2023-06-22T15:03:57
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.55s           2023-06-22T15:03:59
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.53s           2023-06-22T15:04:02
+================================================================================
+[2023-06-22T17:04:39.083+0200] {manager.py:758} INFO - Searching for files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:04:39.086+0200] {manager.py:761} INFO - There are 7 files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:04:59.960+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0  3.50s           2023-06-22T15:04:44
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  3.49s           2023-06-22T15:04:59
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           1           0  1.58s           2023-06-22T15:04:28
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  1           0  1.52s           2023-06-22T15:04:38
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           1           0  1.56s           2023-06-22T15:04:31
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.57s           2023-06-22T15:04:33
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.57s           2023-06-22T15:04:36
+================================================================================
+[2023-06-22T17:05:33.634+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0  3.07s           2023-06-22T15:05:18
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  3.40s           2023-06-22T15:05:33
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           1           0  1.58s           2023-06-22T15:05:02
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  1           0  1.57s           2023-06-22T15:05:12
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           1           0  1.54s           2023-06-22T15:05:05
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.54s           2023-06-22T15:05:07
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.52s           2023-06-22T15:05:10
+================================================================================
+[2023-06-22T17:05:39.967+0200] {manager.py:758} INFO - Searching for files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:05:39.971+0200] {manager.py:761} INFO - There are 7 files in /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags
+[2023-06-22T17:06:07.342+0200] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_training.py                           0           0  3.09s           2023-06-22T15:05:51
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py                                1           0  3.40s           2023-06-22T15:06:07
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-3.py                           1           0  1.60s           2023-06-22T15:05:36
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/first_dag.py                                  1           0  1.56s           2023-06-22T15:05:46
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-2.py                           1           0  1.59s           2023-06-22T15:05:38
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/pythonoperator-1.py                           1           0  1.55s           2023-06-22T15:05:41
+/Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py                             1           0  1.53s           2023-06-22T15:05:44
+================================================================================
+[2023-06-22T17:06:19.876+0200] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15

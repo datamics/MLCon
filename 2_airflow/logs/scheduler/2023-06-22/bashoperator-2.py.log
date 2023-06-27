@@ -1024,3 +1024,52 @@
 [2023-06-22T17:00:18.883+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:00:18.882+0200] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-06-22T17:00:18.896+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:00:18.896+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
 [2023-06-22T17:00:18.909+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.828 seconds
+[2023-06-22T17:02:54.009+0200] {processor.py:157} INFO - Started process (PID=89033) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:02:54.012+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:02:54.012+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:02:54.012+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:02:54.029+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:02:54.716+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:02:54.716+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:02:54.727+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:02:54.726+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:02:54.743+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.735 seconds
+[2023-06-22T17:03:27.884+0200] {processor.py:157} INFO - Started process (PID=89049) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:03:27.886+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:03:27.887+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:27.887+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:03:27.901+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:03:28.550+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:28.550+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:03:28.563+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:28.563+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:03:28.576+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.693 seconds
+[2023-06-22T17:04:01.426+0200] {processor.py:157} INFO - Started process (PID=89062) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:04:01.430+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:04:01.431+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:01.431+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:04:01.448+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:04:02.094+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:02.094+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:04:02.104+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:02.104+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:04:02.117+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.692 seconds
+[2023-06-22T17:04:35.446+0200] {processor.py:157} INFO - Started process (PID=89077) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:04:35.448+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:04:35.448+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:35.448+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:04:35.462+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:04:36.105+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:36.105+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:04:36.116+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:36.116+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:04:36.128+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.683 seconds
+[2023-06-22T17:05:09.381+0200] {processor.py:157} INFO - Started process (PID=89090) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:05:09.383+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:05:09.383+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:09.383+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:05:09.396+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:05:10.036+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:10.036+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:05:10.047+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:10.046+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:05:10.058+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.678 seconds
+[2023-06-22T17:05:43.169+0200] {processor.py:157} INFO - Started process (PID=89102) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:05:43.171+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:05:43.171+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:43.171+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:05:43.184+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:05:43.831+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:43.831+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:05:43.842+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:43.842+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:05:43.858+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 0.690 seconds
+[2023-06-22T17:06:17.518+0200] {processor.py:157} INFO - Started process (PID=89115) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:06:17.521+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py for tasks to queue
+[2023-06-22T17:06:17.522+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:06:17.522+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:06:17.541+0200] {processor.py:836} INFO - DAG(s) dict_keys(['BashOperator-2']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py
+[2023-06-22T17:06:18.507+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:06:18.506+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-22T17:06:18.517+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:06:18.517+0200] {dag.py:3486} INFO - Setting next_dagrun for BashOperator-2 to 2023-06-23T00:00:00+00:00, run_after=2023-06-24T00:00:00+00:00
+[2023-06-22T17:06:18.528+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/bashoperator-2.py took 1.011 seconds

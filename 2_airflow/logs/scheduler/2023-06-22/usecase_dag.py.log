@@ -1387,3 +1387,101 @@ KeyError: 'exp_name'
 [2023-06-22T17:00:15.713+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
 [2023-06-22T17:00:15.718+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
 [2023-06-22T17:00:15.780+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.338 seconds
+[2023-06-22T17:02:39.703+0200] {processor.py:157} INFO - Started process (PID=89019) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:02:39.707+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:02:39.707+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:02:39.707+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:02:42.238+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:02:42.238+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:02:43.047+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:02:43 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:02:43.050+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:02:43 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:02:43.057+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:02:43.057+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:02:43.087+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:02:43.087+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:02:43.102+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:02:43.102+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:02:43.116+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:02:43.196+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 3.495 seconds
+[2023-06-22T17:03:15.124+0200] {processor.py:157} INFO - Started process (PID=89041) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:03:15.127+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:03:15.127+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:15.127+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:03:16.787+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:16.787+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:03:17.505+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:03:17 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:03:17.507+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:03:17 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:03:17.512+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:03:17.512+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:03:17.532+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:03:17.532+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:03:17.547+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:03:17.547+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:03:17.552+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:03:17.626+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.503 seconds
+[2023-06-22T17:03:48.982+0200] {processor.py:157} INFO - Started process (PID=89055) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:03:48.984+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:03:48.985+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:48.985+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:03:50.527+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:03:50.526+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:03:51.169+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:03:51 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:03:51.171+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:03:51 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:03:51.175+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:03:51.175+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:03:51.195+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:03:51.195+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:03:51.209+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:03:51.209+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:03:51.213+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:03:51.274+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.293 seconds
+[2023-06-22T17:04:23.054+0200] {processor.py:157} INFO - Started process (PID=89071) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:04:23.056+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:04:23.056+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:23.056+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:04:24.560+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:24.560+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:04:25.263+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:04:25 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:04:25.265+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:04:25 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:04:25.269+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:04:25.269+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:04:25.291+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:04:25.291+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:04:25.306+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:04:25.306+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:04:25.311+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:04:25.383+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.330 seconds
+[2023-06-22T17:04:57.074+0200] {processor.py:157} INFO - Started process (PID=89084) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:04:57.077+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:04:57.077+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:57.077+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:04:58.616+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:04:58.615+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:04:59.307+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:04:59 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:04:59.309+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:04:59 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:04:59.313+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:04:59.313+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:04:59.334+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:04:59.334+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:04:59.348+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:04:59.348+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:04:59.352+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:04:59.413+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.339 seconds
+[2023-06-22T17:05:30.831+0200] {processor.py:157} INFO - Started process (PID=89096) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:05:30.833+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:05:30.833+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:30.833+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:05:32.324+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:05:32.324+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:05:32.969+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:05:32 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:05:32.970+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:05:32 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:05:32.975+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:05:32.975+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:05:32.995+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:05:32.995+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:05:33.009+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:05:33.009+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:05:33.013+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:05:33.090+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.260 seconds
+[2023-06-22T17:06:04.540+0200] {processor.py:157} INFO - Started process (PID=89108) to work on /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:06:04.542+0200] {processor.py:826} INFO - Processing file /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py for tasks to queue
+[2023-06-22T17:06:04.543+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:06:04.543+0200] {dagbag.py:541} INFO - Filling up the DagBag from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:06:06.055+0200] {logging_mixin.py:149} INFO - [2023-06-22T17:06:06.055+0200] {usecase_dag.py:50} INFO - current directory /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow
+[2023-06-22T17:06:06.709+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:06:06 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+[2023-06-22T17:06:06.711+0200] {logging_mixin.py:149} WARNING - 2023/06/22 17:06:06 INFO mlflow.store.db.utils: Updating database tables
+[2023-06-22T17:06:06.715+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:06:06.715+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:06:06.735+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+[2023-06-22T17:06:06.735+0200] {logging_mixin.py:149} WARNING - INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2023-06-22T17:06:06.749+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): perform_etl>, training already registered for DAG: dag_with_usecase
+[2023-06-22T17:06:06.749+0200] {logging_mixin.py:149} WARNING - WARNI [airflow.task.operators] Dependency <Task(_PythonDecoratedOperator): training>, perform_etl already registered for DAG: dag_with_usecase
+[2023-06-22T17:06:06.753+0200] {processor.py:836} INFO - DAG(s) dict_keys(['dag_with_usecase']) retrieved from /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py
+[2023-06-22T17:06:06.816+0200] {processor.py:179} INFO - Processing /Users/saumyagoyal/JupyterNotebook/MLCon/MLCon_23/2_airflow/dags/usecase_dag.py took 2.276 seconds
