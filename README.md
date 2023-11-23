@@ -1,2 +1,3 @@
-# MLCon_23
-MLCon_23
+# Machine Learning Conference Workshop (MLCon)
+
+
