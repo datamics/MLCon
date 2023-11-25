@@ -1,0 +1,48 @@
+version: "3.3"
+services:
+  mlflow:
+    build: .
+    image: mlflow:v1
+    restart: unless-stopped
+    ports:
+      - "5500:5000"
+    expose:
+      - 5000
+    # network_mode: host
+    # networks:
+      # mlops:
+      #   ipv4_address: 172.15.0.2
+    volumes:
+      - ./local_mlops_tools/mlflow:/mlops_tools/dir_mlflow/
+    command: mlflow server --default-artifact-root /mlops_tools/dir_mlflow/mlruns --host 0.0.0.0 --port 5000 
+
+  airflow:
+    build: .
+    image: airflow:v1
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    expose:
+      - 8000
+    # network_mode: host
+    # user: 0:0
+    # networks:
+    #   mlops:
+    #     ipv4_address: 172.15.0.3
+    environment:
+      - AIRFLOW_HOME=/mlops_tools/dir_airflow/
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////mlops_tools/dir_airflow/airflow.db
+    volumes:
+      - ./local_mlops_tools/airflow:/mlops_tools/dir_airflow
+    command: /bin/sh -c "/mlops_tools/start_server.sh"
+
+### for case when the network isolation is required because of conflicting IPs or Ports
+# networks:
+#   mlops:
+#     driver: bridge
+#     ipam:
+#       config:
+#         - subnet: 172.15.0.0/16
+#           gateway: 172.15.0.1
+
+      
