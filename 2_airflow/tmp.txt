@@ -1,2 +1,30 @@
+# create venv and activate it
+
 # airflow installation link
-pip install "apache-airflow[celery]==2.7.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.3/constraints-3.8.txt"
+pip install "apache-airflow[celery]==2.7.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.3/constraints-3.x.txt"
+
+# create directories at "2_airflow"
+mkdir -p dags plugins logs
+
+# set AIRFLOW_HOME env variable -- "2_airflow"
+export AIRFLOW_HOME=$(pwd)
+
+#  initialize db
+airflow db migrate
+
+# for older version of airflow --- not recommended
+airflow db init
+
+# create user
+airflow users create \
+          --username admin \
+          --firstname FIRST_NAME \
+          --lastname LAST_NAME \
+          --role Admin \
+          --email admin@example.org
+
+# run webserver
+airflow webserver –port 8080
+
+# run airflow scheduler
+airflow scheduler
