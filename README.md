@@ -5,4 +5,4 @@ This repo will contain the code written during the Workshop along with the Prese
 
 Use the `requirements.txt` file to download the neceassary tool/libraries
 
-### Note: You can clone the repo as we will use this directory structure
+### Note: You can clone the repo as we will use this directory structure 
