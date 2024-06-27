@@ -169,3 +169,7 @@ airflow.cfg
 airflow-webserver.pid
 logs/
 plugins/
+
+## LabelStudio and FiftyOne
+.venv/
+fiftyone_root/
