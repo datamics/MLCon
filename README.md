@@ -1,68 +1,71 @@
 # Machine Learning Conference Workshop (MLCon)
 
-This repository contains the code written during the MLCon Munich 2025 Workshop, along with related presentations and resources.
+This repository contains the code, notebooks, and presentations from the MLCon Munich 2025 Workshop, focusing on efficient machine learning workflows using tools like FiftyOne and Label Studio.
 
 ## Table of Contents
 
 - [Project Description](#project-description)
+- [Folder Structure](#folder-structure)
 - [Setup Instructions](#setup-instructions)
 - [Makefile Commands](#makefile-commands)
-- [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Project Description
 
-This repo will contain the code written during the Workshop along with the Presentations.
+This repository provides hands-on resources for the MLCon Workshop, including code, data, and presentations for practical sessions on machine learning data curation, labeling, and experiment tracking.
+
+## Folder Structure
+
+```
+MLCon/
+├── 1_FiftyOne/           # Notebooks and resources for FiftyOne
+│   ├── 1. Check Installation and basics.ipynb
+│   └── fiftyone_root/
+├── 2_LabelStudio/        # Notebooks for Label Studio
+│   └── 1. Create Labeling Project.ipynb
+├── data/                 # Workshop datasets
+│   └── winequality.csv
+├── Makefile              # Automation for setup and running tools
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+├── .gitignore
+├── .python-version
+└── .venv/                # Virtual environment (not tracked)
+```
 
 ## Setup Instructions
 
-Follow these steps to set up your development environment:
+Follow these steps to set up your environment:
 
 ```bash
 # 1. Clone the repository
 git clone <repository-url>
 cd MLCon_25S/MLCon
 
-# 2. Create and activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate
+# 2. (Recommended) Use the provided Makefile for setup
+make setup
 
-# 3. Install dependencies using Makefile
-make requirements
+# Alternatively, set up manually:
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 ## Makefile Commands
 
-| Command            | Description                                 |
-|--------------------|---------------------------------------------|
-| `make requirements`| Install all Python dependencies from requirements.txt |
-| `make test`        | Run the test suite                          |
-| `make clean`       | Remove temporary files and build artifacts  |
-| `make lint`        | Run code linters (if configured)            |
-
-## Folder Structure
-
-```
-MLCon_25S/
-└── MLCon/
-    ├── Makefile
-    ├── README.md
-    ├── requirements.txt
-    ├── 1_FiftyOne/
-    ├── 2_LabelStudio/
-    ├── data/
-    └── ...
-```
-
-- `Makefile`: Automates setup and development tasks.
-- `requirements.txt`: Lists Python dependencies.
-- `1_FiftyOne/`, `2_LabelStudio/`: Workshop modules and code.
-- `data/`: Datasets and related files.
+| Command               | Description                                                      |
+|-----------------------|------------------------------------------------------------------|
+| `make setup`          | Install Python 3.12 (if needed), create venv, install requirements|
+| `make install`        | Install Python dependencies from requirements.txt                |
+| `make run fiftyone`   | Launch the FiftyOne app (for dataset visualization)              |
+| `make run labelstudio`| Launch the Label Studio app (for data labeling)                  |
+| `make check`          | Check if Python 3.12 is installed                                |
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements, bug fixes, or suggestions.
+Contributions are welcome! Please open an issue or submit a pull request for improvements, bug fixes, or suggestions.
 
 ## License
 
