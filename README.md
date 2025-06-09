@@ -20,23 +20,17 @@ This repository provides hands-on resources for the MLCon Workshop, including co
 ```
 MLCon/
 ├── 1_FiftyOne/           # Notebooks and resources for FiftyOne
-│   ├── 1. Check Installation and basics.ipynb
-│   └── fiftyone_root/
 ├── 2_LabelStudio/        # Notebooks for Label Studio
-│   └── 1. Create Labeling Project.ipynb
 ├── data/                 # Workshop datasets
-│   └── winequality.csv
 ├── Makefile              # Automation for setup and running tools
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
-├── .gitignore
-├── .python-version
 └── .venv/                # Virtual environment (not tracked)
 ```
 
 ## Setup Instructions
 
-Follow these steps to set up your environment:
+Follow these steps to set up your environment, make sure python 3.12+ is already installed on your system:
 
 ```bash
 # 1. Clone the repository
@@ -62,11 +56,3 @@ pip install -r requirements.txt
 | `make run fiftyone`   | Launch the FiftyOne app (for dataset visualization)              |
 | `make run labelstudio`| Launch the Label Studio app (for data labeling)                  |
 | `make check`          | Check if Python 3.12 is installed                                |
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for improvements, bug fixes, or suggestions.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
