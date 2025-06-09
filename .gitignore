@@ -169,10 +169,13 @@ airflow.cfg
 airflow-webserver.pid
 logs/
 plugins/
+.DS_Store
 
 ## LabelStudio and FiftyOne
 .venv/
 fiftyone_root/
+
 data/
+
 .ipynb_checkpoints
 *.ipynb
