@@ -173,3 +173,6 @@ plugins/
 ## LabelStudio and FiftyOne
 .venv/
 fiftyone_root/
+data/
+.ipynb_checkpoints
+*.ipynb

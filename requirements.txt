@@ -1,4 +1,3 @@
-mlflow
 scikit-learn
 fiftyone
 umap-learn
